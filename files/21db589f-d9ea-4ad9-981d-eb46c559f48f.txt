@@ -1,0 +1,11 @@
+
+addStudent 1 Tutorial/1
+cd_student
+cd_event
+cd_student_event
+filter performance 0
+filter performance -1 to 101 all tested
+filter urgency 0 (-1 to 101 tested)
+sort-student all name reverse
+sort-student all email nonreverse
+sort-student all email rever
