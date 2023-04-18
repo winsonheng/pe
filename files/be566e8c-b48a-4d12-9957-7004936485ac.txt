@@ -1,0 +1,33 @@
+add n/Aaran Aan telegram/12345678 add n/Aaran Aan telegram/12345678 e/e1111111@u.nus.edu a/Blk 111 Aaron St 1, #01-11 score/1
+add n/Ben Beong telegram/222222222 e/e2222222@u.nus.edu a/Blk 222 Ben St 2, #02-22 score/2
+add n/Chong CatFah telegram/chong_catfah e/e3333333@u.nus.edu a/Blk 3 Chong St 3 score/33
+add n/D telegram/DDDDD e/e4444444@u.nus.edu a/Blk 4 score/44
+add n/E telegram/EEEEE e/e5555555@u.nus.edu a/Blk 5 score/55
+add n/F telegram/FFFFF e/e6666666@u.nus.edu a/Blk 6 score/66
+add n/G telegram/GGGGG e/e7777777@u.nus.edu a/Blk 7 score/77
+add n/H telegram/HHHHH e/e8888888@u.nus.edu a/Blk 8 score/88
+add n/I telegram/IIIII e/e9999999@u.nus.edu a/Blk 9 score/99
+
+touch Tutorial/examReview -date 01/01/2030 16:00
+
+vim Lab/pancakeSort
+vim Lab/KosarajuAlgorithm -date 01/01/2031 16:00
+
+addStudent 1 Tutorial/1
+addStudent 2 Tutorial/1
+addStudent 3 Tutorial/1
+addStudent 4 Tutorial/1
+addStudent 1 Lab/1
+addStudent 2 Lab/2
+addStudent 3 Lab/1
+addStudent 4 Lab/2
+
+sort-student all name reverse
+sort-student all email nonreverse
+sort-student all email rever
+sort-student all address reverse
+sort-student lab email nonreverse
+sort-student lab address rever
+sort-student lab address reverse
+sort-student tutorial address reverse
+sort-student tutorial address rever
